@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    font-size: 2rem;
+    color: #122344;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#button{
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    right: 0;
+    background: #8d8d8d;
+    color: aliceblue;
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
